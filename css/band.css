@@ -52,6 +52,12 @@ border: 0;
 
 /*==========1. HEADER==============*/
 
+.brand {
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    color: #fff !important;
+}
+
 .jumbotron {
 	position: relative;
 	color: #fff;
@@ -410,13 +416,17 @@ border: 0;
 }
 .socialButtons {
 	text-align:center;
-	margin:50px 0;
+	margin-bottom: 20px;
 }
 .socialButtons a {
 	padding:5px;
 }
 .socialButtons a:hover {
 	opacity:0.5;
+}
+
+.socialImg {
+    height: 60px;
 }
 /*==========9. BLOG ==============*/
 
